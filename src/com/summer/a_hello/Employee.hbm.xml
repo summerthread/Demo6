@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.summer.a_hello">
+
+    <class name="Employee" table="employee">
+
+        <id name="empId" column="id">
+            <generator class="native"/>
+        </id>
+
+        <property name="empName" column="empName"/>
+        <property name="workDate" column="workDate"/>
+
+    </class>
+
+</hibernate-mapping>
