@@ -15,6 +15,7 @@ import java.util.Date;
 public class App {
     @Test
     public void testHello() throws Exception{
+        System.out.println("添加更改  在其他分支上");
         Employee emp = new Employee();
         emp.setEmpName("班长");
         emp.setWorkDate(new Date());
